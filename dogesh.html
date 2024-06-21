@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duke</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .videos {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .videos iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 315px; /* Adjust height as needed */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Duke</h1>
+    </header>
+    
+    <section id="about">
+        <h2>About Duke</h2>
+        <p>Duke is a Doberman breed dog. He is very fat and lazy, but people are afraid of him because he barks very loud. He is 7 years old.</p>
+    </section>
+    
+    <section id="gallery">
+        <h2>Photos and Videos</h2>
+        <div class="gallery">
+            <img src="duke1.jpg" alt="Duke's Photo 1">
+            <img src="duke2.jpg" alt="Duke's Photo 2">
+            <!-- Add more images as needed -->
+        </div>
+        <div class="videos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
+            <!-- Replace VIDEO_ID1 with Duke's video URL -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID2" frameborder="0" allowfullscreen></iframe>
+            <!-- Replace VIDEO_ID2 with another video URL -->
+            <!-- Add more videos as needed -->
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Duke's Page</p>
+    </footer>
+    
+</body>
+</html>
